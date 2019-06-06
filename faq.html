@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+    </head>
+    <body>
+        
+        <section class="p4"><br><br>
+            <img src=" logo.png">
+            <h1 ><b>Frequently Asked Questions (FAQ)</b></h1><hr><br>
+                <div class="container-fluid">
+                <div class="col-sm-8 col-sm-offset-2">
+                <button class="accordion">For how long can I subscribe a car?</button>
+                <div class="panel">
+                  <p>You can subscribe to a car for 6, 12, 24 or 36 months depending on your need. The longer you subscribe, the lesser is your monthly Subscription Fee.</p>
+                </div>
+                
+                <button class="accordion">Which cars can I subscribe to? What are the variants?</button>
+                <div class="panel">
+            <p>ZAP Subscribe currently offers multiple car models in all Zoomcar cities. Check the car variants available in your city here.</p>
+                </div>
+                
+                <button class="accordion">Can I buy the car I have subscribed to?</button>
+                <div class="panel">
+                  <p>While we would have loved to give you the option if you wanted, our arrangement with OEMs and financiers would
+                       make this a very expensive option for you. You can always subscribe to a car though :)</p>
+                </div>
+                <button class="accordion">Do I get to chose the color of the car as well?</button>
+                <div class="panel">
+                  <p>Unfortunately, No. :( We know you want your car as soon as possible, hence, we have limited control over the color of the car.</p>
+                </div>
+                <button class="accordion">Will the cars be fitted with speed governors?</button>
+                <div class="panel">
+                  <p>The car would be registered under Zoomcar's Self Drive Car Rental license, which makes it commercial in nature.</p>
+                </div>
+                <button class="accordion">Will the car have black-board registration?</button>
+                <div class="panel">
+                  <p>he car would be registered under Zoomcar's Self Drive Car Rental license making it a black board car.</p>
+                </div>
+                <button class="accordion">Can I extend my tenure?</button>
+                <div class="panel">
+                  <p>Tenure can be extended anytime during the subscription period. Given the huge demand for this product, we suggest you do
+                      this at least a month before the scheduled end date of the subscription as the extension is subject to availability of the car.</p>
+                </div>
+                <button class="accordion">How will I handle accidents when I am driving?</button>
+                <div class="panel">
+                 <p></p> 
+                </div>
+                <button class="accordion">What can I expect in the technical interview ?</button>
+                <div class="panel">
+                  <p>We wish you drive safe and never have to go through this! However, in that unfortunate event, just call our AEC
+                       Support [contact details will be available in the ZAP App] and we will take it from there.</p>
+                </div>
+                <button class="accordion">Do I need to be GST registered?</button>
+                <div class="panel">
+                 <p>While this is not mandatory, we do recommend you get a GST registration. Don’t worry, we have this very easy for you. Our GST
+                      partners will reach out to you and get the process started. It’s a very simple process and takes around 7 days to get a GSTIN.</p> 
+                </div>
+                
+                </div>
+                
+                <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight){
+                      panel.style.maxHeight = null;
+                    } else {
+                      panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                  });
+                }
+                </script>
+                </div>
+                </div>
+                
+        </section>
+        
+    </body>
+</html>
